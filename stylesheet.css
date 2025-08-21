@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", serif;
+    /* font-weight: 300; */
+    font-style: normal;
+}
+
+.background {
+    width: 100vw;
+    height: 400vh;
+    background-color: black;
+}
+
+.fsec {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/IN-en-20250106-TRIFECTA-perspective_27b02e7c-f668-4639-9e82-1a5485084b2a_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    position: relative;
+
+}
+
+.fsec .box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: .44;
+    position: absolute;
+}
+
+.background .fsec nav {
+    /* border: 2px solid black; */
+    height: 9vh;
+    width: 82vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 0em 0em; */
+}
+nav .lft img{
+    display: flex;
+    /* border: 1px solid white; */
+    height:4rem;
+    width: 40rem; 
+}
+
+nav .lft img{
+    width: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+nav .rit ul {
+    display: flex;
+    position: relative;
+    color: aliceblue;
+
+}
+
+nav .rit ul li{
+    border: 1px solid rgba(255, 255, 255, 0.335);
+    width: 5em;
+    height: 2em;
+    margin: .5em;
+    border-radius: 4px;
+    padding: 0.2rem .4rem;
+    text-align: center;
+}
+.rit ul li:nth-child(2){
+    background-color: red;
+}
+
+.rit ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.rit ul li:nth-child(1){
+    width: 8rem;
+    background-color: rgba(0, 0, 0, 0.395);
+    
+}
+.rit i{
+    margin: 0rem .5rem;
+    font-size: 10px;
+}
+
+.cantaint {
+    /* border: 2px solid white; */
+    width: 60vw;
+    margin: auto;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    top: calc(90vh - 70%);
+    font-size: 2em;
+}
+
+
+.cantaint p:nth-child(1) {
+    font-size: 56px;
+    font-family: "Martel Sans", serif;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 2px solid green; */
+    width: 40vw;
+    /* margin: auto; */
+}
+
+
+.cantaint p:nth-child(2) {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    text-align: center;
+
+}
+
+.cantaint p:nth-child(3) {
+    font-size: 1rem;
+    line-height: 3rem;
+    text-align: center;
+
+}
+.cantaint .btn{
+    /* border: 2px solid red; */
+    width: 40vw;
+}
+.btn input{
+    padding: .9rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: rgba(255, 255, 255, 0.995);
+    border: 1px solid rgba(255, 255, 255, 0.338);
+    border-radius: 5px;
+    width: 23rem;
+}
+.btn button {
+    border: 1px solid red;
+    border-radius: 5px;
+
+}
+.btn button a{
+    /* height: 3.6rem; */
+    padding: .4rem;
+    background-color: red;
+    width: 14rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.ssec{
+    /* background-color: gray; */
+    padding-top: 2rem;
+    height: 230vh;
+    width: 82vw;
+    margin: auto;
+}
+.ssec .trend{
+    padding: .5rem 0rem;
+    color: white;
+    /* background-color: green; */
+    height: 12vh;
+}
+.ssec h2{
+    color: white;
+    font-weight: 500;
+}
+.trend select{
+    margin-right: 1rem;
+    padding: .5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.607);
+    color: white;
+    border: 1px solid rgba(148, 147, 147, 0.525);
+    border-radius: 4px;
+    font-size: 15px;   
+}
+.ssec .row1{
+    height: 45vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5rem 0rem;
+}
+
+.ssec .row1 .card{
+    height: 43vh;
+    width: 13vw;
+    /* border: 2px solid green; */
+    /* background-color: red; */
+    border-radius: .6rem;
+    position: relative;
+}
+.ssec .row1 .card img{
+    height: 100%;
+    width: 100%;
+    border-radius: .6rem;
+}
+
+.row1 .card h1{
+    font-size: 7rem;
+    color: black;
+    /* text-decoration-line: ; */
+    position: absolute;
+    /* border: 2px solid green; */
+    /* width:5rem; */
+    /* height: 5rem; */
+    top: 7rem;
+    left: -1.5rem;
+}
+
+.row2{
+    color: white;
+    /* background-color: brown; */
+    height: 55vh;
+}
+.row2 h2{
+    padding: 1rem 0rem;
+    font-size: 1.4rem;
+}
+.row2 .cards{
+    height: 45vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.row2 .cards .card{
+    padding: .5rem .7rem;
+    width: 19vw;
+    height: 45vh;
+    /* border: 2px solid purple; */
+    background: linear-gradient(to bottom right, rgb(50, 50, 81) ,rgb(30, 35, 42), rgb(41, 20, 20)) ;
+    border-radius: 1rem;
+    position: relative;
+}
+.row2 .cards .card i{
+    position: absolute;
+    font-size: 3.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    background: linear-gradient(to bottom right, rgb(182, 13, 123), rgb(234, 20, 127),rgb(57, 27, 55));
+    /* -webkit-background-clip: text; */
+    background-clip: text;
+    color: transparent;
+}
+
+.querybox{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid green; */
+    color: white;
+}
+
+.querybox  h2{
+    padding: 1rem 0rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.querybox .query{
+    height: 100%;
+    width: 100%;
+}
+.query .line{
+    padding: 0rem 1rem;
+    margin: .5rem 0rem;
+    /* border: 2px solid green; */
+    height: 13vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(61, 60, 60);
+}
+.query .line h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+.query .line i{
+    font-size: 3rem;
+    font-weight: 100;
+}
+.tsec{
+    height: 20vh;
+    width: 51vw;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.tsec p{
+    color: white;
+    text-align: center;
+    padding: .5rem 0rem;
+}
+.tsec .btn a{
+    border: 2px solid red;
+}
+.tsec input{
+    width: 34rem;
+    
+}
+.forsec{
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+    /* border: 2px solid white; */
+    color: white;
+}
+.forsec .call p{
+    padding: 2rem 0rem;
+    color: rgb(136, 138, 139);
+
+}
+.forsec .faq{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: .5rem;
+}
+.forsec a{
+    color: rgb(136, 138, 139);
+}
