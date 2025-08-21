@@ -315,8 +315,17 @@ nav .rit ul li{
     text-align: center;
     padding: .5rem 0rem;
 }
+.tsec .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    padding: 1rem 0rem;
+
+}
 .tsec .btn a{
     border: 2px solid red;
+    /* margin-left: 7px; */
 }
 .tsec input{
     width: 34rem;
