@@ -144,7 +144,7 @@ nav .rit ul li{
 .cantaint .btn{
     /* border: 2px solid red; */
     width: 45vw;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .btn input{
     padding: .9rem;
